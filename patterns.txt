@@ -1,0 +1,15 @@
+\bSELECT\b.*?\bFROM\b
+\bUNION\b.*?\bSELECT\b
+\bORDER BY\b\s*\d+\s*(?:ASC|DESC)?\s*(?:--.*)?$
+<script[^>]*>.*?</script>
+\b(?:select|union|insert|update|delete|drop|alter|create|truncate|grant|exec|execute)\b(?:\s*\([^\)]*\)|\s+[^a-z0-9_]|$)
+\b(?:\s*\([^\)]*\)|\s+[^a-z0-9_]|$)
+ORDER\s+BY
+\sUNION\s+(ALL|SELECT)\s+
+\bOR\b
+%[0-9A-Fa-f]{2}
+\bSLEEP\b
+@@VERSION
+\bGROUP\s+BY\b
+\badmin\b
+(?:<|&lt;|%3C)(?:[^\\s\"'>/]|\"[^\"]*\"|'[^']*'|\/[^>\/])*(?:\/|>|&gt;|%3E)
