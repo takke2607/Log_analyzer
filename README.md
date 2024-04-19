@@ -1,5 +1,5 @@
 # Log_analyzer
-Simple Log Analyzer for Detecting Potential Web Attacks.
+Simple Log Analyzer for Detecting Potential Web Attacks attempts from log file.
 
 Flexible Pattern Matching: 
   Utilizes regular expressions to match a wide range of payloads, including encoded and obfuscated variants.
