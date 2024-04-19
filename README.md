@@ -12,3 +12,5 @@ Lightweight:
 
 Automated Detection: 
   Scans log files automatically, reducing manual effort and enhancing security monitoring.
+
+Usage: ./analyse.sh <log_file> <pattern_file>
